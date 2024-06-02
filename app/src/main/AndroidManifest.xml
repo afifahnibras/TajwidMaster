@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TajwidMaster"
+        tools:targetApi="31">
+        <activity
+            android:name=".Nilai100Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Nilai0Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Soal_2SalahTengahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Soal_2SalahPinggirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Soal_2BenarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Soal_1SalahPinggirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KeliruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Soal_1BenarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JawabSoal_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".JawabSoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Soal_1SalahTengahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahSoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditSoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KeluarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdghomMitslainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdzharSyafawiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IkhfaSyafawiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanMimmatiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdghomBilaghunnahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdghomBighunnahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IkhfaHakikiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IqlabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdzharHalqiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanNunmatiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MateriSoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
